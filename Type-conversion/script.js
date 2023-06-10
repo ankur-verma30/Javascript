@@ -26,6 +26,7 @@ console.log(float_1,typeof float_1);//string changed to number
 data=2;
 data=Boolean(data);
 console.log(data,typeof data);
+
 //except 0 all numbers give true
 //these are the 5 ways to get a Nan
 data_2='hello';
