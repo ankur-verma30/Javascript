@@ -66,3 +66,22 @@ console.log(output)
 document.links.id="google-links"
 output=document.links.id
 console.log(output)
+output=document.links[0].href
+console.log(output) 
+document.links[0].href="http://google.com"
+output=document.links[0].href
+console.log(output)
+output=document.links[0].id
+console.log(output)
+output= document.links[0].id="google"
+console.log(output)
+
+
+//can be done with images also
+output=document.images//through this we get an HTML collection
+console.log(output)
+
+
+//changing into array and using the for each loop
+const links=Array.from(document.links);
+links.forEach((link)=>console.log(link))
