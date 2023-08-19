@@ -24,3 +24,25 @@ title.style.backgroundColor="aqua";
 //document.querySelector()
 console.log(document.querySelector('h2'));
 console.log(document.querySelector(('.main')));
+console.log(document.querySelector('.subheading'));
+
+
+//use these methods on other elements 
+const list=document.querySelector('ul');
+console.log(list);
+console.log(list.innerHTML); 
+const firstItem=list.querySelector('li');
+firstItem.style.color = 'red';
+
+
+//query selector all()
+
+const listItems=document.querySelectorAll("li");
+console.log(listItems);
+
+//can not put style all at once
+listItems[1].style.fontWeight="bold";
+
+listItems.forEach((item)=>{
+    item.style.lineHeight=1.5;
+});
