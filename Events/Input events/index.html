@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input events</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Shopping list</h1>
+        </header>
+        <form id="item-form">
+            <div class="form-contol">
+                <input type="text" class="form-input" name="item" placeholder="Enter item" id="item-input">
+            </div>
+            <!-- select input -->
+            <select name="priority" id="priority-input">
+                <option value="0">Select priority</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+
+            </select>
+            <!-- checkbox input  -->
+            <input type="checkbox" id="checkbox">
+            Recurring item
+            <div class="form-control">
+                <button class="btn" type="submit">
+                    <i class="fa-solid fa-plus"></i>Add items
+                </button>
+            </div>
+        </form>
+        <div class="filter-tasks">
+            <input type="text" class="form-input-filter" id="filter" placeholder="filter items">
+        </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script src="form submission/formscript.js"></script>
+
+</body>
+
+</html>

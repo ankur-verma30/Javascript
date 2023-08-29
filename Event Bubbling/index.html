@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling</title>
+</head>
+
+<body>
+    <p>What is Event Bubbling??</p>
+    <p>With bubbling, the event is first captured and handled by the innermost element and then propagated to outer
+        elements</p>
+    <h1>Shopping list</h1>
+    <img src="wiaend.jpg" alt="this is an image" height="100px">
+    <form id="item-form">
+        <div class="form-control">
+            <input type="text" name="item" id="item-name" placeholder="Enter item">
+        </div>
+        <br>
+        <div class="form-control">
+            <button type="submit" class="btn" id="form-button">
+                <i class="fa-solid fa-plus"></i>+Add Items</button>
+                
+        </div>
+    </form>
+    <br>
+    <div class="filter-tasks">
+        <input type="text" name="Filter items"
+        class="form-input-filter" id="form-filter" placeholder="Filter Items">
+    </div>
+    <ul class="list">
+        <li class="list-items">Apple</li>
+        <li class="list-items">Orange Juice</li>
+        <li class="list-items">Oreos</li>
+        <li class="list-items">Milk</li>
+    </ul>
+    <a href="https://google.com">Google</a>
+    <br>
+    <br>
+    <button class="btn">Clear All</button>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
