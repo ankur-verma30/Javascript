@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    line-height: 1.30;
+    margin-top: 20px;
+}
+button{
+    display: inline-block;
+    background: #333;
+    border: 0;
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.danger{
+    background: red;
+}
