@@ -1,0 +1,1 @@
+This is the text file that has been used for learning the fetch API concepts
