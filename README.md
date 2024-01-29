@@ -1,10 +1,10 @@
-Welcome To The Course of JavaScript
+#Learned HTML and CSS.<br>
+For my progress check this repo
+<a href="https://github.com/ankur-verma30/Complete-HTML-CSS-Mastery-With-Real-Projects-2023"> Learning HTML & CSS </a>
 
+Welcome To JavaScript
 
-Course Outline
-
-This includes all the below following 
-
+This includes all the below following
 
 Variables & Constants<br>
 Data Types<br>
